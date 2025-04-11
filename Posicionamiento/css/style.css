@@ -1,0 +1,60 @@
+div.container-flex{
+    width: 90%;
+    height: 400px;
+    border: 5px solid rgb(176, 4, 4);
+  display: flex;
+  /*flex-direction: column-reverse;*/
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ /* align-items: stretch;*/
+ align-content: stretch;
+}
+
+div div{
+    width: 100px;
+ /*   height: 100px;*/
+    border: 3px solid black;
+  
+}
+
+a:hover::after{
+    content: " Error";
+}
+
+/*table,div#unico,img.#imp{
+
+}
+*/
+
+div.caja1{
+    background-color: darkred;
+    position: relative;
+    left: 450px;
+    top:300px;
+}
+
+div.caja2{
+    background-color: rgb(88, 12, 145);
+    position: absolute;
+    top:150px;
+    left: 400px;
+
+}
+
+div.caja3{
+    background-color: rgb(242, 186, 4);
+   position: fixed;
+
+   bottom: 100px;
+}
+div.caja4{
+    background-color: rgb(5, 85, 116);
+    position: sticky;
+    top: 15px;
+}
+
+div.caja5{
+    background-color: rgb(7, 107, 57);
+    position: static;
+  
+}

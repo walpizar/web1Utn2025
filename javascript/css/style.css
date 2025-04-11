@@ -1,0 +1,21 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 50px;
+}
+.error{
+
+    color:red;
+}
+input{
+    display: block;
+    margin: 10px 0px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+button{
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+
